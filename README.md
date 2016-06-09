@@ -1,5 +1,11 @@
 # Kittencapades
-a game of kitten adventures, how many beats can you follow? Can you catch a kitty tune? As a bonus: improve your memory skills.
+![](http://i.giphy.com/17rQREOci3nzy.gif)
+![](http://i.giphy.com/YbXtbKoi2ZUOc.gif)
+
+I mean, seriously! What's not to love?
+  
+
+### In a nutshell: this is a game of kitten adventures, how many beats can you follow? Can you catch a kitty tune? As a bonus: improve your memory skills.
 
 ### User Story
 * As a user I expect to be greated with a starter page where I can press play to begin the game
@@ -17,4 +23,7 @@ Simply match the kitten karaoke rhythm and create some awesome kitty (word) tune
 
 ![alt text][logo]
 [logo]: http://content.freshmedleydesigns.com/media/images/KittenCapadesGame.png "Kittencapades Wireframe"
+
+### Sources Used:
+Gifs via [Giphy.com](http://Giphy.com)
 
