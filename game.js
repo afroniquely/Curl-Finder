@@ -11,7 +11,7 @@ $(document).ready(function() {
      //     var randomSequence = Math.floor(Math.random()*kittenSings.length);
 
   //Selecting all the diamond shapes
-  var diamondShapes = document.querySelectorAll('.diamonds img');
+  var diamondShapes = document.querySelectorAll('.diamonds img').style.visibility ='hidden';
     console.log(diamondShapes);
 
  var letsPlay = function(){
@@ -30,7 +30,3 @@ $(document).ready(function() {
 
   letsPlay();
 })
-
-/* Getting the diamonds to show the images after being clicked.
-  - figure out why previous methods of making diamonds flip don't work
-*/
