@@ -20,7 +20,7 @@ $(document).ready(function() {
  // Starting the game by clicking the Let's Play button
   var letsPlay = function(){
 
-  function showImages() {
+    function showImages() {
     var img = document.getElementsByClassName('hide');
     for (var i = 0; i < diamondShapes.length; i++){
       diamondShapes[i].style.visibility = 'visible';
@@ -31,12 +31,12 @@ $(document).ready(function() {
     for (var i = 0; i < diamondShapes.length; i++){
       diamondShapes[i].addEventListener('click', clickHandling);
       }
-    showImages();
+  showImages();
 
     }
 
 
-  //The Click Handling event
+  //The Click Handling event - Currently broken, only shows clicks on the images, doesn't matter if click let's play button
     var clickHandling = function(){
 
       console.log('you clicked!');
@@ -47,7 +47,7 @@ $(document).ready(function() {
 
     var randomCat = Math.floor(Math.random()*kittenSings.length);
     var randomKitty = kittenSings[randomCat];
-    game.selectedCat = randomKitty;
+    letsPlay.selectedCat = randomKitty;
 
     //setting up the game itself
     sequence: [];
