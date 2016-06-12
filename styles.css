@@ -1,0 +1,87 @@
+body {
+  background: black;
+}
+
+.container {
+  width: 600px;
+  height: 800px;
+  margin-top: 60px !important;
+  background: white;
+  border: 5px double rebeccapurple;
+}
+
+#introText {
+  font-family: "Satisfy", serif;
+  text-align: center;
+  color: rebeccapurple;
+  letter-spacing: .1rem;
+  margin-top: 20px;
+  padding-top: 22px;
+}
+.start {
+  margin: 0px 245px 10px 405px;
+}
+
+.gameChoices{
+  margin: 60px 245px 10px 360px;
+}
+
+.diamond-grid {
+  margin: 40px 0 10px 105px;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  margin-left: 66px;
+  margin-top: 20px;
+}
+
+/* Base Code for the overall diamond shape via:  */
+
+.diamonds {
+  height: 160px;
+  width: 160px;
+  background: transparent;
+  color: #fff;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  border: 3px solid #fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.diamonds img {
+  /*visibility: hidden;*/
+}
+
+.dia1 {
+  background: #990069;
+  /*background: white;*/
+
+}
+
+.dia2 {
+  background: #b1ff00;
+}
+
+.dia3{
+  background: #00d0ca;
+}
+
+.dia4 {
+  background: #038057;
+  margin-top: 0;
+  margin-left: 186px;
+}
+.dia5 {
+  background: #ff4400;
+  margin-left: 70px;
+  margin-top: 0;
+}
+
