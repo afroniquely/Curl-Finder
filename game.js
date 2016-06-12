@@ -19,18 +19,40 @@ $(document).ready(function() {
 
  // Starting the game by clicking the Let's Play button
   var letsPlay = function(){
+
+  function showImages() {
+    var img = document.getElementsByClassName('hide');
+    for (var i = 0; i < diamondShapes.length; i++){
+      diamondShapes[i].style.visibility = 'visible';
+      }
+
+  }
+
     for (var i = 0; i < diamondShapes.length; i++){
       diamondShapes[i].addEventListener('click', clickHandling);
       }
+    showImages();
+
     }
 
-  function showImages() {var img = document.getElementsByClassName('hide');}
 
   //The Click Handling event
     var clickHandling = function(){
+
       console.log('you clicked!');
 
     };
 
     letsPlay();
+
+    var randomCat = Math.floor(Math.random()*kittenSings.length);
+    var randomKitty = kittenSings[randomCat];
+    game.selectedCat = randomKitty;
+
+    //setting up the game itself
+    sequence: [];
+    user: [];
+    rounds: 0;
+
+
 })
