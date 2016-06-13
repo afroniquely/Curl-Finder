@@ -24,6 +24,19 @@ Simply match the kitten karaoke rhythm and create some awesome kitty (word) tune
 ![alt text][logo]
 [logo]: http://content.freshmedleydesigns.com/media/images/KittenCapadesGame.png "Kittencapades Wireframe"
 
+### Technologies Used:
+* Vanilla Javascript
+* Some JQuery
+* CSS
+* HTML
+* Animate.css
+* Skeleton Framework
+
+### Approach Taken and Conflict Resolutions
+Overall, I tried to create a game that would be a spin off on the Simon Says game of traditional colors, and introduce some fun kitten action. Overall, I tried to implement javascript combined with some jquery functionality. Tried to keep the code DRY as possible.
+
+Roadblocks: I quickly learned a few things broke rather easily and totally were over my skill level at this current point. It was fun to try and tackle, but overall, definitely challenging for me to get a truly fully functioning game. Moral of this story: I will revist and conquer the Kittencapades!
+
 ### Things that didn't work
 Errors I faced were getting the code to effectively make the flash and random sequence and also just errors on converting a Simon type game into an image based one.
 
