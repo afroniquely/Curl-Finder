@@ -24,6 +24,9 @@ Simply match the kitten karaoke rhythm and create some awesome kitty (word) tune
 ![alt text][logo]
 [logo]: http://content.freshmedleydesigns.com/media/images/KittenCapadesGame.png "Kittencapades Wireframe"
 
+### Things that didn't work
+Errors I faced were getting the code to effectively make the flash and random sequence and also just errors on converting a Simon type game into an image based one.
+
 ### Sources Used:
 Gifs via [Giphy.com](http://Giphy.com)
 
