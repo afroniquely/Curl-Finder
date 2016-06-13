@@ -33,6 +33,10 @@ $(document).ready(function() {
       }
   showImages();
 
+    var randomCat = Math.floor(Math.random()*kittenSings.length);
+    var randomKitty = kittenSings[randomCat];
+    letsPlay.selectedCat = randomKitty;
+
     }
 
 
@@ -45,14 +49,19 @@ $(document).ready(function() {
 
     letsPlay();
 
-    var randomCat = Math.floor(Math.random()*kittenSings.length);
-    var randomKitty = kittenSings[randomCat];
-    letsPlay.selectedCat = randomKitty;
-
     //setting up the game itself
     sequence: [];
     user: [];
     rounds: 0;
+
+  //make the diamonds flash?
+  var flash = function () {
+      var lights = this;
+      if(times > 0) {
+        diamondShapes.stop().animate({opacity: '1'}, {duration: 50, complete: function (){diamondShapes.stop.animate({opacity: '0.6'}, 200);}
+        })
+      }
+  }
 
 
 })
